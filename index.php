@@ -2,6 +2,7 @@
 <body>
 
 <form action="" method="post">
+
  Enter first string <input type="text" name="first"><br>
 Enter second string <input type="text" name="second"><br>
 
@@ -13,14 +14,19 @@ Enter second string <input type="text" name="second"><br>
 
 
 
+
+
+
+
 <?php
 
-//form submiting
+//checking form submition
 
 if(isset($_POST["submit"]))
 {
 
 	//fetching data from form
+
 
 	$first=$_POST["first"];
 	$second=$_POST["second"];
@@ -41,7 +47,6 @@ if(isset($_POST["submit"]))
 		echo "strings are equals";
 	}
 }
-
 
 
 ?>
